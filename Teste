@@ -1,0 +1,223 @@
+-- roteiro feito por gokuooo99
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+OrionLib:Init()
+
+
+
+OrionLib:MakeNotification({
+	Name = "Title!",
+	Content = "Notificação ... Roteiro feito por gokuooo99",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+local Window = OrionLib:MakeWindow({Name = "Titan training simulator", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+
+
+
+local Tab = Window:MakeTab({
+    Name = "Farming",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+OrionLib:MakeNotification({
+	Name = "Title!",
+	Content = "Notificação     ... Roteiro feito por gokuooo99",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+-- Treinar super rapido sem animaçao e instantaneo
+
+Tab:AddToggle({
+  Name = "AUTO CLICK SUPER FAST",
+  Callback = function(value)
+    teste = value
+    if teste then
+      while teste do
+        wait(0.1)
+                 
+
+game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("sleitnick_knit@1.5.1"):WaitForChild("knit"):WaitForChild("Services"):WaitForChild("TrainService"):WaitForChild("RE"):WaitForChild("Train"):FireServer()
+
+        game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("sleitnick_knit@1.5.1"):WaitForChild("knit"):WaitForChild("Services"):WaitForChild("TrainService"):WaitForChild("RE"):WaitForChild("Train"):FireServer()
+
+        
+
+      end
+    end
+  end
+  
+})
+
+-- esta funçao da rebirth 100% automatico
+
+Tab:AddToggle({
+  Name = "AUTO REBIRTH",
+  Callback = function(value)
+    teste = value
+    if teste then
+      while teste do
+        wait(0.1)
+                 
+        
+game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("sleitnick_knit@1.5.1"):WaitForChild("knit"):WaitForChild("Services"):WaitForChild("RebirthService"):WaitForChild("RF"):WaitForChild("Rebirth"):InvokeServer()
+
+        game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("sleitnick_knit@1.5.1"):WaitForChild("knit"):WaitForChild("Services"):WaitForChild("RebirthService"):WaitForChild("RF"):WaitForChild("Rebirth"):InvokeServer()
+
+
+      end
+    end
+  end
+  
+})
+-- cria a toggle para o teleporte
+Tab:AddToggle({
+  Name = "Auto tp Rei de guerra(bug risk)",
+  
+Callback = function(value)
+  teste = value
+  if teste then
+    while teste do
+      wait(0.1)
+      
+      -- teleporte para a posiçao da area que pega o Rei de guerra (teleporte automatico
+      
+      local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+      rootPart.CFrame = CFrame.new(-1202, 809, 925)
+      
+      local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+      rootPart.CFrame = CFrame.new(-1202, 809, 925)
+
+    end
+  end
+end
+})
+
+-- cria a aba de Auto spin ovo e spin roleta automatico
+
+local Tab = Window:MakeTab({
+    Name = "Auto egg & Spin",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+--- auto spin ovo inicial
+
+Tab:AddToggle({
+  Name = "AUTO OVO DE ABELHA",
+Callback = function(value)
+  teste = value
+  if teste then
+    while teste do
+      wait(0.1)
+      local args = {
+    [1] = "Egg_1_1",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("sleitnick_knit@1.5.1"):WaitForChild("knit"):WaitForChild("Services"):WaitForChild("EggHatchService"):WaitForChild("RE"):WaitForChild("Hatch"):FireServer(unpack(args))
+
+    end
+  end
+end
+})
+
+--- cria o Toggle que gira os ovos de frutas automatico
+
+Tab:AddToggle({
+  Name = "AUTO SPIN FRUITS EGG",
+  Callback = function(value)
+    teste = value
+    if value then
+      while teste do
+        --- script de girar o ovo
+        wait(0.1)
+        
+        local args = {
+    [1] = "Egg_1_2",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("sleitnick_knit@1.5.1"):WaitForChild("knit"):WaitForChild("Services"):WaitForChild("EggHatchService"):WaitForChild("RE"):WaitForChild("Hatch"):FireServer(unpack(args))
+        
+      end
+    end
+  end
+})
+
+--Cria a nova toggle 
+Tab:AddToggle({
+  Name = "Auto spin OVO angelical",
+  Callback = function(value)
+    teste = value 
+    if teste then
+      while teste do
+        --- script de girar o ultimo ovo
+        wait(0.1)
+        
+        local args = {
+    [1] = "Egg_1_3",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("sleitnick_knit@1.5.1"):WaitForChild("knit"):WaitForChild("Services"):WaitForChild("EggHatchService"):WaitForChild("RE"):WaitForChild("Hatch"):FireServer(unpack(args))
+
+        
+      end
+    end
+  end
+})
+
+Tab:AddToggle({
+  Name = "Auto spin Roleta",
+  Callback = function(value)
+    teste = value 
+    if teste then
+      while teste do
+        --- spinnar a roleta
+        wait(0.1)
+        
+        
+
+game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("sleitnick_knit@1.5.1"):WaitForChild("knit"):WaitForChild("Services"):WaitForChild("SpinningWheelService"):WaitForChild("RF"):WaitForChild("StartSpin"):InvokeServer()
+
+        
+      end
+    end
+  end
+})
+  
+
+Tab:AddToggle({
+  Name = "Auto spin OVO ceifeiro",
+  Callback = function(value)
+    teste = value 
+    if teste then
+      while teste do
+        --- script de girar o ovo ceifeiro
+        wait(0.1)
+        
+        
+        
+        local args = {
+    [1] = "Egg_1_4",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("sleitnick_knit@1.5.1"):WaitForChild("knit"):WaitForChild("Services"):WaitForChild("EggHatchService"):WaitForChild("RE"):WaitForChild("Hatch"):FireServer(unpack(args))
+
+
+
+        
+      end
+    end
+  end
+})
+
+--- fim do script
+
+OrionLib:Init(
