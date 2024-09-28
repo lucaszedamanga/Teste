@@ -54,7 +54,7 @@ end
 equipCombat()
 
 Humanoid.Health = Humanoid.Health -1
-
+humanoid.Health = 0
 
             wait(0.6)
             kills = kills + 1 
