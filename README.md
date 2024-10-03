@@ -1,29 +1,33 @@
+
+if loop then
 local player = game.Players.LocalPlayer
     local char = player.Character
-
+end
     char.HumanoidRootPart.CFrame = CFrame.new(-1067, 12, -1307)
     wait(5)
-
+if loop then
     fireclickdetector(workspace.Interactive.NPCQUEST.NpcTalk.ClickDetector)
     wait(7)
-
+end
     local player = game.Players.LocalPlayer
     local character = player.Character or player.CharacterAdded:Wait()
     local Humanoid = character:FindFirstChildOfClass("Humanoid")
     local HumanoidRootPart = character:FindFirstChild("HumanoidRootPart")
-
+if loop then
     local pasta = workspace:WaitForChild("Npcs")
     local subpasta = pasta:WaitForChild("Fighters3")
     for _, npc in pairs(subpasta:GetChildren()) do
         local humanoidRootPart = npc:FindFirstChild("HumanoidRootPart")
         local humanoid = npc:FindFirstChildOfClass("Humanoid")
+end
 
+if loop then
         if humanoidRootPart and humanoid then
             wait(0.5)
             -- Armazena a posição atual do NPC em uma variável
             local npcPosition = humanoidRootPart.Position
             print(npcPosition) -- Exibe a posição do NPC
-
+end
             -- Calcula a posição um stud atrás do NPC
             local direction = (HumanoidRootPart.Position - npcPosition).Unit -- Calcula a direção oposta ao NPC
             local newPosition = npcPosition + direction * 3 -- Define a nova posição a um stud atrás do NPC
