@@ -59,6 +59,7 @@ humanoid.Health = humanoid.Health -1
 
             
             wait(0.5)
+            
             local args = {
                 [1] = game:GetService("Players").LocalPlayer
             }
@@ -79,7 +80,6 @@ local function unequipCombat()
         print("Item 'Combat' não está equipado.")
     end
 end
-end
 
 unequipCombat()
 
@@ -89,4 +89,4 @@ unequipCombat()
 Humanoid.Health = Humanoid.Health +1
 end
         end
-    
+    end
