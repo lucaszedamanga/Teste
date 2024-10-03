@@ -57,7 +57,7 @@ humanoid.Health = humanoid.Health -1
             humanoid.Health = 0 
             
 
-            coroutine.wrap(checarnpc)()
+            
             wait(0.5)
             local args = {
                 [1] = game:GetService("Players").LocalPlayer
