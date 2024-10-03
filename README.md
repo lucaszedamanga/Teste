@@ -83,7 +83,7 @@ end
             }
 
             game:GetService("ReplicatedStorage").Events.boxing:FireServer(unpack(args))
-kills = kills +1 
+
             wait(0.5)
             
             
