@@ -1,10 +1,13 @@
+wait(9)
+
+if loop then
 
 local player = game.Players.LocalPlayer
     local char = player.Character
 
     char.HumanoidRootPart.CFrame = CFrame.new(-1067, 12, -1307)
     wait(5)
-
+end
     fireclickdetector(workspace.Interactive.NPCQUEST.NpcTalk.ClickDetector)
     wait(7)
 
@@ -18,8 +21,6 @@ local player = game.Players.LocalPlayer
     for _, npc in pairs(subpasta:GetChildren()) do
         local humanoidRootPart = npc:FindFirstChild("HumanoidRootPart")
         local humanoid = npc:FindFirstChildOfClass("Humanoid")
-
-
 
         if humanoidRootPart and humanoid then
             wait(0.5)
@@ -92,3 +93,4 @@ Humanoid.Health = Humanoid.Health +1
 
         end
     end
+
