@@ -57,9 +57,7 @@ humanoid.Health = humanoid.Health -1
             humanoid.Health = 0 
             
 
-            
             wait(0.5)
-            
             local args = {
                 [1] = game:GetService("Players").LocalPlayer
             }
@@ -87,6 +85,7 @@ unequipCombat()
             humanoid.Health = 100
             humanoid.Health = 900
 Humanoid.Health = Humanoid.Health +1
-end
+
+
         end
     end
