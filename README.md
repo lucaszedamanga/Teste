@@ -56,26 +56,7 @@ humanoid.Health = humanoid.Health -1
       wait(0.2)
             humanoid.Health = 0 
             
-local function checarnpc()
-while true do 
-wait(0.1)
-local pasta = workspace:WaitForChild("Npcs")
-    local subpasta = pasta:WaitForChild("Fighters3")
-    for _, npc in pairs(subpasta:GetChildren()) do
-        local humanoidRootPart = npc:FindFirstChild("HumanoidRootPart")
-        local humanoid = npc:FindFirstChildOfClass("Humanoid")
 
-    
-        
-    if  not humanoid or not humanoidRootPart then
-        wait(0.4)
-        
-        print("sem npcs")
-              end
-         end
-     end
-end
-            
             coroutine.wrap(checarnpc)()
             wait(0.5)
             local args = {
