@@ -79,6 +79,7 @@ local function unequipCombat()
         print("Item 'Combat' não está equipado.")
     end
 end
+end
 
 unequipCombat()
 
