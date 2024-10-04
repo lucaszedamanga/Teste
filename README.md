@@ -1,3 +1,48 @@
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+
+local Window = Rayfield:CreateWindow({
+    Name = "Rayfield Example Window",
+    LoadingTitle = "Rayfield Interface Suite",
+    LoadingSubtitle = "by Sirius",
+    ConfigurationSaving = {
+        Enabled = true,
+        FolderName = nil, -- Create a custom folder for your hub/game
+        FileName = "Big Hub"
+    },
+        Discord = {
+            Enabled = false,
+            Invite = "sirius", -- The Discord invite code, do not include discord.gg/
+            RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+        },
+    KeySystem = true, -- Set this to true to use our key system
+    KeySettings = {
+        Title = "Sirius Hub",
+        Subtitle = "Key System",
+        Note = "Join the discord (discord.gg/sirius)",
+        FileName = "SiriusKey",
+        SaveKey = true,
+        GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+        Key = "teste"
+    }
+})
+
+
+local Tab = Window:CreateTab("Tab Example", 4483362458)
+local loop = false
+local Toggle = Tab:CreateToggle({
+    Name = "Toggle Example",
+    CurrentValue = false,
+    Flag = "Toggle1", 
+    Callback = function(Value)
+         loop = Value
+        if loop then
+            while loop do 
+                wait()
+
+
+
+            
+
 
 if loop then
 print("loop ativado")
@@ -6,22 +51,25 @@ local player = game.Players.LocalPlayer
     char.HumanoidRootPart.CFrame = CFrame.new(-1067, 12, -1307)
     wait(5)
 end
-
+if loop then
     fireclickdetector(workspace.Interactive.NPCQUEST.NpcTalk.ClickDetector)
     wait(7)
-    
+    end
+
+    if loop then
     local player = game.Players.LocalPlayer
     local character = player.Character or player.CharacterAdded:Wait()
     local Humanoid = character:FindFirstChildOfClass("Humanoid")
     local HumanoidRootPart = character:FindFirstChild("HumanoidRootPart")
-
+end
+if loop then
     local pasta = workspace:WaitForChild("Npcs")
     local subpasta = pasta:WaitForChild("Fighters3")
     for _, npc in pairs(subpasta:GetChildren()) do
         local humanoidRootPart = npc:FindFirstChild("HumanoidRootPart")
         local humanoid = npc:FindFirstChildOfClass("Humanoid")
-
-        if humanoidRootPart and humanoid then
+end
+        if humanoidRootPart and humanoid and loop  then
             wait(0.5)
             -- Armazena a posição atual do NPC em uma variável
             local npcPosition = humanoidRootPart.Position
@@ -93,3 +141,9 @@ Humanoid.Health = Humanoid.Health +1
         end
     end
 
+
+
+                end
+          end
+    end,
+})
