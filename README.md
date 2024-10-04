@@ -1,7 +1,7 @@
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
 
 local Window = Rayfield:CreateWindow({
-    Name = "Rayfield Example Window",
+    Name = "Beta0.0.1.1",
     LoadingTitle = "Rayfield Interface Suite",
     LoadingSubtitle = "by Sirius",
     ConfigurationSaving = {
@@ -16,7 +16,7 @@ local Window = Rayfield:CreateWindow({
         },
     KeySystem = true, -- Set this to true to use our key system
     KeySettings = {
-        Title = "Sirius Hub",
+        Title = "Toman (Menu em fase beta)",
         Subtitle = "Key System",
         Note = "Join the discord (discord.gg/sirius)",
         FileName = "SiriusKey",
@@ -37,6 +37,7 @@ local Toggle = Tab:CreateToggle({
          loop = Value
         if loop then
             while loop do 
+if loop then
                 wait()
 
 
@@ -44,31 +45,29 @@ local Toggle = Tab:CreateToggle({
             
 
 
-if loop then
+
 print("loop ativado")
 local player = game.Players.LocalPlayer
     local char = player.Character
     char.HumanoidRootPart.CFrame = CFrame.new(-1067, 12, -1307)
     wait(5)
-end
-if loop then
+
     fireclickdetector(workspace.Interactive.NPCQUEST.NpcTalk.ClickDetector)
     wait(7)
     end
 
-    if loop then
+    
     local player = game.Players.LocalPlayer
     local character = player.Character or player.CharacterAdded:Wait()
     local Humanoid = character:FindFirstChildOfClass("Humanoid")
     local HumanoidRootPart = character:FindFirstChild("HumanoidRootPart")
-end
-if loop then
+
     local pasta = workspace:WaitForChild("Npcs")
     local subpasta = pasta:WaitForChild("Fighters3")
     for _, npc in pairs(subpasta:GetChildren()) do
         local humanoidRootPart = npc:FindFirstChild("HumanoidRootPart")
         local humanoid = npc:FindFirstChildOfClass("Humanoid")
-end
+
         if humanoidRootPart and humanoid and loop  then
             wait(0.5)
             -- Armazena a posição atual do NPC em uma variável
