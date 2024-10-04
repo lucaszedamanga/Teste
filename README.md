@@ -1,13 +1,12 @@
 wait(9)
 
-if loop then
 
 local player = game.Players.LocalPlayer
     local char = player.Character
 
     char.HumanoidRootPart.CFrame = CFrame.new(-1067, 12, -1307)
     wait(5)
-end
+
     fireclickdetector(workspace.Interactive.NPCQUEST.NpcTalk.ClickDetector)
     wait(7)
 
