@@ -1,6 +1,6 @@
 
 if loop then
-
+print("loop ativado")
 local player = game.Players.LocalPlayer
     local char = player.Character
     char.HumanoidRootPart.CFrame = CFrame.new(-1067, 12, -1307)
