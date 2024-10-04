@@ -5,8 +5,11 @@ local player = game.Players.LocalPlayer
     local char = player.Character
     char.HumanoidRootPart.CFrame = CFrame.new(-1067, 12, -1307)
     wait(5)
+
+
     fireclickdetector(workspace.Interactive.NPCQUEST.NpcTalk.ClickDetector)
     wait(7)
+    
     local player = game.Players.LocalPlayer
     local character = player.Character or player.CharacterAdded:Wait()
     local Humanoid = character:FindFirstChildOfClass("Humanoid")
