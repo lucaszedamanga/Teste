@@ -174,7 +174,7 @@ wait(7)
             HumanoidRootPart.CFrame = CFrame.lookAt(newPosition, npcPosition)
 
             wait(0.4)
-
+if inf then
 local player = game.Players.LocalPlayer
 local backpack = player:WaitForChild("Backpack")
 local character = player.Character or player.CharacterAdded:Wait()
@@ -189,7 +189,7 @@ local function equipCombat()
 end
 
 equipCombat()
-
+end
 humanoid.Health = humanoid.Health - 1
 if inf then
 for i = 1, 8 do 
@@ -199,12 +199,13 @@ end
 end
             wait(0.3)
 humanoid.Health = 0
+                  if inf then
             local args = {
                 [1] = game:GetService("Players").LocalPlayer
             }
 
             game:GetService("ReplicatedStorage").Events.boxing:FireServer(unpack(args))
-
+                  end
             wait(0.6)
 
 local player = game.Players.LocalPlayer
@@ -232,4 +233,107 @@ Humanoid.Health = Humanoid.Health +1
           
 end)
 
+
+local anf = false
+tab.newToggle("auto sensei kong fu", "Kong fu sensei", false, function(valo)
+  anf = valo
+  
+    if anf then
+      while anf do
+        if anf then
+            
+                  
+                wait()
+                  if anf then
+                  local player = game.Players.LocalPlayer
+local char = player.Character
+char.HumanoidRootPart.CFrame = CFrame.new(-580, 23, -1164)
+                  end
+wait(5)
+                  if anf then
+fireclickdetector(workspace.Interactive.NPCQUESTBOSSKUNGFU.NpcTalk.ClickDetector)
+                  end
+wait(7)
+            
+
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local Humanoid = character:FindFirstChildOfClass("Humanoid")
+    local HumanoidRootPart = character:FindFirstChild("HumanoidRootPart")
+
+    local pasta = workspace:WaitForChild("Npcs")
+    local npc = pasta:WaitForChild("KungFu_Boss")
+        local humanoidRootPart = npc:FindFirstChild("HumanoidRootPart")
+        local humanoid = npc:FindFirstChildOfClass("Humanoid")
+
+        if humanoidRootPart and humanoid and anf then
+            wait(0.5)
+            
+            local npcPosition = humanoidRootPart.Position
+            print(npcPosition) 
+
+            
+            local direction = (HumanoidRootPart.Position - npcPosition).Unit 
+            local newPosition = npcPosition + direction * 3 
+            
+          
+            HumanoidRootPart.CFrame = CFrame.lookAt(newPosition, npcPosition)
+            
+            wait(0.4)
+if anf then
+local player = game.Players.LocalPlayer
+local backpack = player:WaitForChild("Backpack")
+local character = player.Character or player.CharacterAdded:Wait()
+local function equipCombat()
+    local tool = backpack:FindFirstChild("Combat")
+    if tool then
+        character.Humanoid:EquipTool(tool)
+    else
+        print("Item 'Combat' não encontrado na mochila.")
+    end
+end
+
+equipCombat()
+end
+                  if anf then
+humanoid.Health = humanoid.Health -1
+for i = 1, 8 do
+            humanoid.Health = 0
+end
+                  end
+            wait(0.2)
+humanoid.Health = 0
+wait(0.3)
+                  if anf then
+            local args = {
+                [1] = game:GetService("Players").LocalPlayer
+            }
+
+            game:GetService("ReplicatedStorage").Events.boxing:FireServer(unpack(args))
+
+            wait(0.6)
+                  end
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+
+local function unequipCombat()
+    local tool = character:FindFirstChild("Combat")
+    if tool then
+        tool.Parent = player:WaitForChild("Backpack")
+    else
+        print("Item 'Combat' não está equipado.")
+    end
+end
+
+unequipCombat()
+
+            
+            humanoid.Health = 100
+            humanoid.Health = 900
+Humanoid.Health = Humanoid.Health +1
+        end
+        end
+      end
+    end
+end)
 window:Open()
