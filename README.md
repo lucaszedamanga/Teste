@@ -785,7 +785,7 @@ tab.newButton("ativa spawn kill", "ativa spawn kill", function()
 end)
 
 tab.newButton("god mod", "deixa você imortal", function()
-    print('Hello!')
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/ignore-touchinterests/main/main",true))()
 end)
 
 window:Open()
