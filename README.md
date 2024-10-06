@@ -659,13 +659,7 @@ end
 end
     end)
 
-tab.newToggle("Toggle", "Toggle! (prints the state)", true, function(toggleState)
-    if toggleState then
-        print("On")
-    else
-        print("Off")
-    end
-end)
+
 
     
 local tab = DrRayLibrary.newTab("Teleport", "ImageIdHere")
