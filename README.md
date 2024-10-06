@@ -665,13 +665,11 @@ tab.newToggle("Auto rebirth", "auto rebirth", false, function(valuer)
   loopa = valuer
   
     if loopa then
-      while loop do
+      while loopa do
         if loopa then
         print("o")
 
 end)
-end
-end
 end
 local tab = DrRayLibrary.newTab("Teleport", "ImageIdHere")
 
