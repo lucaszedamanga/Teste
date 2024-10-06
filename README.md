@@ -660,4 +660,8 @@ end
 end
     end)
 
+local tab = DrRayLibrary.newTab("Teleport", "ImageIdHere")
+
+    
+
 window:Open()
