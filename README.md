@@ -2,32 +2,7 @@ local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/
 local window = DrRayLibrary:Load("DrRay", "Default")
 
 local tab = DrRayLibrary.newTab("Farm", "ImageIdHere")
-local loopa = false
-tab.newToggle("auto rebirth", "Da rebirthh automático", false, function(ix)
 
-    loopa = ix
-    if loopa then
-    while loopa do
-    if loopa then
-    wait()
-    local multiplicador = 2
-
-
-local args = {
-    [1] = game:GetService("Players").LocalPlayer
-}
-
-
-for i = 1, multiplicador - 1 do
-    table.insert(args, game:GetService("Players").LocalPlayer)
-end
-
-
-game:GetService("ReplicatedStorage").Functions.Rebirth:InvokeServer(unpack(args))
-    end
-    end
-    end
-end)
 
 
 local loop = false
