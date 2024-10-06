@@ -721,4 +721,10 @@ tab.newButton("god mode", "entre na safe zone e aperte uma vez no botão que apa
     loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/ignore-touchinterests/main/main",true))()
 end)
 
+tab.newButton("spawn kill", "faça spawn kill em outros jogador (importante assistir o tutorial antes de usar)", function()
+    --- script feito por gokuooo99 loadstring(game:HttpGet("https://raw.githubusercontent.com/lucaszedamanga/Fighting-academy-spawn-kill/main/README.md"))()
+end)
+
+
+
 window:Open()
