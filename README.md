@@ -714,6 +714,12 @@ local char = player.Character
 char.HumanoidRootPart.CFrame = CFrame.new(-826, 24, -1973)
 
 end)
+tab.newButton("ir para o dojo", "dojo", function()
+    local plr = game.Players.LocalPlayer
+local chr = plr.Character
+chr.HumanoidRootPart.CFrame = CFrame.new(-1038, 10, -1197)
+end)
+
 
 local tab = DrRayLibrary.newTab("PVP", "ImageIdHere")
 
