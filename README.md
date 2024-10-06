@@ -1,8 +1,10 @@
 local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
 local window = DrRayLibrary:Load("DrRay", "Default")
+
+local tab = DrRayLibrary.newTab("Farm", "ImageIdHere")
 local laap = falss
 tab.newToggle("auto rebirth", "Da rebirth automático ", true, function(valuri)
- laap = valudi
+ laap = valuri
     if laap then
     while laap do
     if laap then
@@ -26,7 +28,7 @@ game:GetService("ReplicatedStorage").Functions.Rebirth:InvokeServer(unpack(args)
     end
 end)
 
-local tab = DrRayLibrary.newTab("Farm", "ImageIdHere")
+
 local loop = false
 tab.newToggle("auto fighters 30", "Fighers 30", false, function(value)
   loop = value
