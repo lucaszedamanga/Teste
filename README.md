@@ -3,7 +3,7 @@ local window = DrRayLibrary:Load("DrRay", "Default")
 
 local tab = DrRayLibrary.newTab("Farm", "ImageIdHere")
 local laap = falss
-tab.newToggle("auto rebirth", "Da rebirth automático ", true, function(valuri)
+tab.newToggle("auto rebirth", "Da rebirth automático ", false, function(valuri)
  laap = valuri
     if laap then
     while laap do
@@ -784,6 +784,8 @@ tab.newButton("ativa spawn kill", "ativa spawn kill", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/lucaszedamanga/Fighting-academy-spawn-kill/main/README.md"))()
 end)
 
-
+tab.newButton("god mod", "deixa você imortal", function()
+    print('Hello!')
+end)
 
 window:Open()
