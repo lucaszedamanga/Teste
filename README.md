@@ -3,7 +3,7 @@ local window = DrRayLibrary:Load("DrRay", "Default")
 
 local tab = DrRayLibrary.newTab("Farm", "ImageIdHere")
 
-tab.newToggle("Toggle", "Toggle! (prints the state)", true, function(toggleState)
+tab.newToggle("Toggle", "Toggle! (prints the state)", false, function(toggleState)
     if toggleState then
         print("On")
     else
