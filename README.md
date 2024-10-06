@@ -2,6 +2,16 @@ local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/
 local window = DrRayLibrary:Load("DrRay", "Default")
 
 local tab = DrRayLibrary.newTab("Farm", "ImageIdHere")
+
+tab.newToggle("Toggle", "Toggle! (prints the state)", true, function(toggleState)
+    if toggleState then
+        print("On")
+    else
+        print("Off")
+    end
+end)
+
+
 local loop = false
 tab.newToggle("auto fighters 30", "Fighers 30", false, function(value)
   loop = value 
