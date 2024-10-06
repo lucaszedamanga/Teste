@@ -1,5 +1,30 @@
 local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
 local window = DrRayLibrary:Load("DrRay", "Default")
+local laap = falss
+tab.newToggle("auto rebirth", "Da rebirth automático ", true, function(valuri)
+ laap = valudi
+    if laap then
+    while laap do
+    if laap then
+    wait()
+    local multiplicador = 2
+
+
+local args = {
+    [1] = game:GetService("Players").LocalPlayer
+}
+
+
+for i = 1, multiplicador - 1 do
+    table.insert(args, game:GetService("Players").LocalPlayer)
+end
+
+
+game:GetService("ReplicatedStorage").Functions.Rebirth:InvokeServer(unpack(args))
+         end
+      end
+    end
+end)
 
 local tab = DrRayLibrary.newTab("Farm", "ImageIdHere")
 local loop = false
@@ -707,7 +732,7 @@ chr.HumanoidRootPart.CFrame = CFrame.new(-574, 9, -517)
 end)
 
 
-tab.newButton("ir lara store equipamentos", "te teleporta no store equipamentos de treino", function()
+tab.newButton("ir para store equipamentos", "te teleporta no store equipamentos de treino", function()
     
 
 --- ir para store de equipamentos de treino
