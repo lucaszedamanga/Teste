@@ -2,12 +2,16 @@ local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/
 local window = DrRayLibrary:Load("DrRay", "Default")
 
 local tab = DrRayLibrary.newTab("Farm", "ImageIdHere")
+local loopa = false
+tab.newToggle("Toggle", "Da rebirth automático", false, function(ix)
 
-tab.newToggle("Toggle", "Toggle! (prints the state)", false, function(toggleState)
-    if toggleState then
-        print("On")
-    else
-        print("Off")
+    loopa = ix
+    if loopa then
+    while loopa do
+    if loop then
+    print("o")
+    end
+    end
     end
 end)
 
