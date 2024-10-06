@@ -690,14 +690,7 @@ end
 
 
     
-local tab = DrRayLibrary.newTab("Teleport", "ImageIdHere")
 
-tab.newButton("ir para Toman", "Te teleporta na HQ da toman", function()
-    local plr = game.Players.LocalPlayer
-local chr =  plr.Character
-chr.HumanoidRootPart.CFrame = CFrame.new(-329, 9, 11)
-
-end)
 
     
   
