@@ -661,7 +661,7 @@ end
     end)
 
     local loopa = false
-tab.newToggle("auto fighters 30", "Fighers 30", false, function(valuer)
+tab.newToggle("Auto rebirth", "auto rebirth", false, function(valuer)
   loopa = valuer
   
     if loopa then
