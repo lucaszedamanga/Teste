@@ -692,7 +692,13 @@ end
     
 local tab = DrRayLibrary.newTab("Teleport", "ImageIdHere")
 
-    tab.newButton("viajar no tempo pro spawn ", "ir para spawn ", function()
+tab.newButton("ir para Toman", "Te teleporta na HQ da toman", function()
+    local plr = game.Players.LocalPlayer
+local chr =  plr.Character
+chr.HumanoidRootPart.CFrame = CFrame.new(-329, 9, 11)
+end)
+
+    
   
 ---- ir para spawn
 local player =  game.Players.LocalPlayer
@@ -770,6 +776,10 @@ tab.newButton("ant ban", "apaga suas mensagens da log do chat", function()
 ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AnthonyIsntHere/anthonysrepository/main/scripts/AntiChatLogger.lua", true))()
 
+end)
+
+tab.newButton("Infinite yield", "comandos de administração-infinitd yield", function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/yRHbQADj'),true))()
 end)
 
 
