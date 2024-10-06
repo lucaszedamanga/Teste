@@ -805,5 +805,9 @@ tab.newButton("anti ban", "Remove seu historico de mensagens do chat", function(
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AnthonyIsntHere/anthonysrepository/main/scripts/AntiChatLogger.lua", true))()
 end)
 
+tab.newButton("ghost hub", "carrega o menu fantasma 👻", function()
+    
+end)
+
 
 window:Open()
