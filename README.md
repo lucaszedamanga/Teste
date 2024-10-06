@@ -763,6 +763,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/lucaszedamanga/Fighti
 end)
 
 local tab = DrRayLibrary.newTab("Outros", "ImageIdHere")
+tab.newButton("Button", "Prints Hello!", function()
+    -[[
+    
+]]
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AnthonyIsntHere/anthonysrepository/main/scripts/AntiChatLogger.lua", true))()
+end)
+
 
 
 
