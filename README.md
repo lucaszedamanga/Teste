@@ -715,5 +715,10 @@ char.HumanoidRootPart.CFrame = CFrame.new(-826, 24, -1973)
 
 end)
 
+local tab = DrRayLibrary.newTab("PVP", "ImageIdHere")
+
+tab.newButton("god mode", "entre na safe zone e aperte uma vez no botão que aparecer na tela", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/ignore-touchinterests/main/main",true))()
+end)
 
 window:Open()
