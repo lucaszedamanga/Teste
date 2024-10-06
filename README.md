@@ -662,7 +662,7 @@ end
 
 local loopa = false
 tab.newToggle("auto fighters 30", "Fighers 30", false, function(valuer)
-  loop = valuer
+  loopa = valuer
   
     if loopa then
       while loopa do
@@ -681,6 +681,7 @@ end
 
 
 game:GetService("ReplicatedStorage").Functions.Rebirth:InvokeServer(unpack(args))
+end
 end
 end)
 
