@@ -759,9 +759,6 @@ end)
 
 local tab = DrRayLibrary.newTab("Outros", "ImageIdHere")
 
-tab.newButton("anti ban", "exclui as suas logs de mensagens do chst ", function()
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/AnthonyIsntHere/anthonysrepository/main/scripts/AntiChatLogger.lua", true))()
-end)
 
 
 window:Open()
