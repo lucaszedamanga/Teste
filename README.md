@@ -780,7 +780,7 @@ end)
 
 local tab = DrRayLibrary.newTab("PVP", "ImageIdHere")
 
-tab.newButton("ativa spawn kill", "ativa spawn kill", function()
+tab.newButton("ativa spawn kill", "fazer spawn kill em outros jogadores ( assista o tutorial para aprender a usar) ", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/lucaszedamanga/Fighting-academy-spawn-kill/main/README.md"))()
 end)
 
