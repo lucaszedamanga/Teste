@@ -780,8 +780,9 @@ end)
 
 local tab = DrRayLibrary.newTab("PVP", "ImageIdHere")
 
-tab.newButton("Button", "Prints Hello!", function()
+tab.newButton("Button", "e", function()
     Roteiro feito por gokuooo99 loadstring(game:HttpGet("https://raw.githubusercontent.com/lucaszedamanga/Fighting-academy-spawn-kill/main/README.md"))()
+    
 end)
 
 window:Open()
