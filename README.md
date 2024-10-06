@@ -660,6 +660,32 @@ end
 end
     end)
 
+local loopa = false
+tab.newToggle("auto fighters 30", "Fighers 30", false, function(valuer)
+  loop = valuer
+  
+    if loopa then
+      while loopa do
+        if loopa then
+        local multiplicador = 2
+
+
+local args = {
+    [1] = game:GetService("Players").LocalPlayer
+}
+
+
+for i = 1, multiplicador - 1 do
+    table.insert(args, game:GetService("Players").LocalPlayer)
+end
+
+
+game:GetService("ReplicatedStorage").Functions.Rebirth:InvokeServer(unpack(args))
+
+       end
+    end
+end)
+
 local tab = DrRayLibrary.newTab("Teleport", "ImageIdHere")
 
     tab.newButton("viajar no tempo pro spawn ", "ir para spawn ", function()
@@ -732,6 +758,11 @@ tab.newButton("spawn kill", "faça spawn kill em outros jogador (importante assi
 loadstring(game:HttpGet("https://raw.githubusercontent.com/lucaszedamanga/Fighting-academy-spawn-kill/refs/heads/main/README.md"))()
 end)
 
+local tab = DrRayLibrary.newTab("Outros", "ImageIdHere")
+
+tab.newButton("anti ban", "exclui as suas logs de mensagens do chst ", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/AnthonyIsntHere/anthonysrepository/main/scripts/AntiChatLogger.lua", true))()
+end)
 
 
 window:Open()
