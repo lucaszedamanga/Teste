@@ -672,7 +672,7 @@ tab.newToggle("Auto rebirth", "auto rebirth", false, function(valuer)
 end)
 end
 end
-
+end
 local tab = DrRayLibrary.newTab("Teleport", "ImageIdHere")
 
     tab.newButton("viajar no tempo pro spawn ", "ir para spawn ", function()
