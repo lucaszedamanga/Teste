@@ -659,30 +659,12 @@ end
 end
     end)
 
-local loopa = false
-tab.newToggle("auto fighters 30", "Fighers 30", false, function(valuer)
-  loopa = valuer
-  
-    if loopa then
-      while loopa do
-        if loopa then
-wait()
-local multiplicador = 2
-
-
-local args = {
-    [1] = game:GetService("Players").LocalPlayer
-}
-
-
-for i = 1, multiplicador - 1 do
-    table.insert(args, game:GetService("Players").LocalPlayer)
-end
-
-
-game:GetService("ReplicatedStorage").Functions.Rebirth:InvokeServer(unpack(args))
-end 
-end
+tab.newToggle("Toggle", "Toggle! (prints the state)", true, function(toggleState)
+    if toggleState then
+        print("On")
+    else
+        print("Off")
+    end
 end)
 
     
