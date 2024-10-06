@@ -781,7 +781,7 @@ end)
 local tab = DrRayLibrary.newTab("PVP", "ImageIdHere")
 
 tab.newButton("ativa spawn kill", "ativa spawn kill", function()
-    
+    print("o")
 end)
 
 
