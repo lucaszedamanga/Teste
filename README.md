@@ -788,4 +788,9 @@ tab.newButton("god mod", "deixa você imortal", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/ignore-touchinterests/main/main",true))()
 end)
 
+
+local tab = DrRayLibrary.newTab("Outros", "ImageIdHere")
+
+
+
 window:Open()
