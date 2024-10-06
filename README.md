@@ -779,11 +779,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/AnthonyIsntHere/antho
 
 end)
 
-tab.newButton("Infinite yield", "comandos de administração-infinitd yield", function()
-
-loadstring(game:HttpGet(('https://pastebin.com/raw/yRHbQADj'),true))()
-
-end)
 
 
 
