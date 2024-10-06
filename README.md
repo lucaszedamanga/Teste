@@ -666,7 +666,7 @@ end
 
 
     
-
+local tab = DrRayLibrary.newTab("Teleport", "ImageIdHere")
 
     
   
