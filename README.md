@@ -662,6 +662,59 @@ end
 
 local tab = DrRayLibrary.newTab("Teleport", "ImageIdHere")
 
+    tab.newButton("Button", "ir para spawn ", function()
     
+
+---- ir para spawn
+local player =  game.Players.LocalPlayer
+local char = player.Character
+char.HumanoidRootPart.CFrame = CFrame.new(-988, 9, -552)
+
+end)
+
+tab.newButton("Button", "ir para academia", function()
+  --- ir para academia
+local player =  game.Players.LocalPlayer
+local char = player.Character
+char.HumanoidRootPart.CFrame = CFrame.new(-922, 9, -722)
+
+end)
+
+
+tab.newButton("Button", "ir para loja de alimentos", function()
+  ---- ir para o mercadinho de comidas
+local player =  game.Players.LocalPlayer
+local char = player.Character
+char.HumanoidRootPart.CFrame = CFrame.new(-574, 9, -522)
+end)
+
+tab.newButton("Button", "ir para loja de equipamentos", function()
+    --- ir para a loja de equipamentos de treino
+local player =  game.Players.LocalPlayer
+local char = player.Character
+char.HumanoidRootPart.CFrame = CFrame.new(-354, 9, -652)
+
+end)
+
+tab.newButton("Button", "ir para sensei kong fu", function()
+    
+
+---- ir para o sensei Kong fu
+local player =  game.Players.LocalPlayer
+local char = player.Character
+char.HumanoidRootPart.CFrame = CFrame.new(-594, 23, -1160)
+
+end)
+
+tab.newButton("Button", "ir para sensei karatê", function()
+    
+
+---- ir para o sensei Karatê 
+local player =  game.Players.LocalPlayer
+local char = player.Character
+char.HumanoidRootPart.CFrame = CFrame.new(-826, 24, -1973)
+
+end)
+
 
 window:Open()
