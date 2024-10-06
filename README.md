@@ -798,7 +798,7 @@ tab.newButton("Infinite yield", "carrega comandos de administração", function(
     loadstring(game:HttpGet(('https://pastebin.com/raw/yRHbQADj'),true))()
 end)
 
-tab.newButton("Button", "Prints Hello!", function()
+tab.newButton("anti ban", "Remove seu historico de mensagens do chat", function()
     --[[
     WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
 ]]
