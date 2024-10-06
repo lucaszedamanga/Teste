@@ -3,13 +3,13 @@ local window = DrRayLibrary:Load("DrRay", "Default")
 
 local tab = DrRayLibrary.newTab("Farm", "ImageIdHere")
 local loopa = false
-tab.newToggle("auto rebirths", "Da rebirthss automático", false, function(ix)
+tab.newToggle("auto rebirth", "Da rebirth automático", false, function(ix)
 
     loopa = ix
     if loopa then
     while loopa do
     if loopa then
-    wait(1)
+    wait()
     local multiplicador = 2
 
 
