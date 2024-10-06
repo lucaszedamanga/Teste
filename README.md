@@ -765,6 +765,9 @@ end)
 local tab = DrRayLibrary.newTab("Outros", "ImageIdHere")
 tab.newButton("ant ban", "anti ban", function()
 
+--[[
+    WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AnthonyIsntHere/anthonysrepository/main/scripts/AntiChatLogger.lua", true))()
 end)
 
