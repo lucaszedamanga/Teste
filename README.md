@@ -2,7 +2,7 @@ local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/
 
 local window = DrRayLibrary:Load("DrRay", "Default")
 
-local tab = DrRayLibrary.newTab("Farm", "ImageIdHere")
+local tab = DrRayLibrary.newTab("Farmar", "ImageIdHere")
 
 
 
