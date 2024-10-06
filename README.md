@@ -763,7 +763,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/lucaszedamanga/Fighti
 end)
 
 local tab = DrRayLibrary.newTab("Outros", "ImageIdHere")
-tab.newButton("ant ban", "anti ban", function()
+tab.newButton("ant ban", "apaga suas mensagens da log do chat", function()
 
 --[[
     WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
