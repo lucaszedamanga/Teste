@@ -696,6 +696,7 @@ tab.newButton("ir para Toman", "Te teleporta na HQ da toman", function()
     local plr = game.Players.LocalPlayer
 local chr =  plr.Character
 chr.HumanoidRootPart.CFrame = CFrame.new(-329, 9, 11)
+
 end)
 
     
@@ -779,7 +780,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/AnthonyIsntHere/antho
 end)
 
 tab.newButton("Infinite yield", "comandos de administração-infinitd yield", function()
+
 loadstring(game:HttpGet(('https://pastebin.com/raw/yRHbQADj'),true))()
+
 end)
 
 
