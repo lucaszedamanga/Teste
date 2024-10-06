@@ -3,7 +3,7 @@ local window = DrRayLibrary:Load("DrRay", "Default")
 
 local tab = DrRayLibrary.newTab("Farm", "ImageIdHere")
 local loopa = false
-tab.newToggle("auto rebirth", "Da rebirth automático", false, function(ix)
+tab.newToggle("auto rebirth", "Da rebirthh automático", false, function(ix)
 
     loopa = ix
     if loopa then
