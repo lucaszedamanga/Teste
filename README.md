@@ -661,15 +661,29 @@ end
     end)
 
     local loopa = false
-tab.newToggle("Auto rebirth", "auto rebirth", false, function(valuer)
-  loopa = valuer
+tab.newToggle("auto fighters 30", "Fighers 30", false, function(valuer)
+  loop = value
   
     if loopa then
       while loopa do
         if loopa then
-        print("o")
+wait()
+local multiplicador = 2
 
-end)
+
+local args = {
+    [1] = game:GetService("Players").LocalPlayer
+}
+
+
+for i = 1, multiplicador - 1 do
+    table.insert(args, game:GetService("Players").LocalPlayer)
+end
+
+
+game:GetService("ReplicatedStorage").Functions.Rebirth:InvokeServer(unpack(args))
+end 
+end
 end
 local tab = DrRayLibrary.newTab("Teleport", "ImageIdHere")
 
