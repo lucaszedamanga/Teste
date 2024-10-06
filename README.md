@@ -762,10 +762,6 @@ tab.newButton("spawn kill", "faça spawn kill em outros jogador (importante assi
 loadstring(game:HttpGet("https://raw.githubusercontent.com/lucaszedamanga/Fighting-academy-spawn-kill/refs/heads/main/README.md"))()
 end)
 
-local tab = DrRayLibrary.newTab("Outros", "ImageIdHere")
-tab.newButton("ant ban", "apaga suas mensagens da log do chat", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/AnthonyIsntHere/anthonysrepository/main/scripts/AntiChatLogger.lua", true))()
-end)
 
 
 
