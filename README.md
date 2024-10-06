@@ -799,7 +799,10 @@ tab.newButton("Infinite yield", "carrega comandos de administração", function(
 end)
 
 tab.newButton("Button", "Prints Hello!", function()
-    
+    --[[
+    WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AnthonyIsntHere/anthonysrepository/main/scripts/AntiChatLogger.lua", true))()
 end)
 
 
