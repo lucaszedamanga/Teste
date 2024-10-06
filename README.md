@@ -806,7 +806,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/AnthonyIsntHere/antho
 end)
 
 tab.newButton("ghost hub", "carrega o menu fantasma 👻", function()
-    
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
 end)
 
 
