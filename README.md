@@ -1,4 +1,5 @@
-local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
+local DrRayLibrary 
+= loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
 local window = DrRayLibrary:Load("DrRay", "Default")
 
 local tab = DrRayLibrary.newTab("Farm", "ImageIdHere")
@@ -690,6 +691,7 @@ tab.newButton("ir pra loja de alimentos", "ir para loja de alimentos", function(
 local player =  game.Players.LocalPlayer
 local char = player.Character
 char.HumanoidRootPart.CFrame = CFrame.new(-574, 9, -522)
+
 end)
 
 tab.newButton("ir pra loja de equipamentos", "ir para loja de equipamentos", function()
@@ -719,10 +721,12 @@ local char = player.Character
 char.HumanoidRootPart.CFrame = CFrame.new(-826, 24, -1973)
 
 end)
+
 tab.newButton("ir para o dojo", "dojo", function()
     local plr = game.Players.LocalPlayer
 local chr = plr.Character
 chr.HumanoidRootPart.CFrame = CFrame.new(-1038, 10, -1197)
+
 end)
 
 
@@ -735,6 +739,7 @@ end)
 tab.newButton("spawn kill", "faça spawn kill em outros jogador (importante assistir o tutorial antes de usar)", function()
     --- script feito por gokuooo99 loadstring(
 loadstring(game:HttpGet("https://raw.githubusercontent.com/lucaszedamanga/Fighting-academy-spawn-kill/refs/heads/main/README.md"))()
+
 end)
 
 
