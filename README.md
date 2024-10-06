@@ -793,4 +793,11 @@ local tab = DrRayLibrary.newTab("Outros", "ImageIdHere")
 
 
 
+
+tab.newButton("Infinite yield", "carrega comandos de administração", function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/yRHbQADj'),true))()
+end)
+
+
+
 window:Open()
