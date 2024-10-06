@@ -664,6 +664,8 @@ local tab = DrRayLibrary.newTab("Teleport", "ImageIdHere")
 
     tab.newButton("Button", "ir para spawn ", function()
     
+tab.newButton("ir pro spawn", "viajar no tempo para o spawn ", function()
+    
 
 ---- ir para spawn
 local player =  game.Players.LocalPlayer
@@ -672,7 +674,7 @@ char.HumanoidRootPart.CFrame = CFrame.new(-988, 9, -552)
 
 end)
 
-tab.newButton("Button", "ir para academia", function()
+tab.newButton("ir pra academia ", "ir para academia rodar a sacola", function()
   --- ir para academia
 local player =  game.Players.LocalPlayer
 local char = player.Character
@@ -681,14 +683,14 @@ char.HumanoidRootPart.CFrame = CFrame.new(-922, 9, -722)
 end)
 
 
-tab.newButton("Button", "ir para loja de alimentos", function()
+tab.newButton("ir pra loja de alimentos", "ir para loja de alimentos", function()
   ---- ir para o mercadinho de comidas
 local player =  game.Players.LocalPlayer
 local char = player.Character
 char.HumanoidRootPart.CFrame = CFrame.new(-574, 9, -522)
 end)
 
-tab.newButton("Button", "ir para loja de equipamentos", function()
+tab.newButton("ir pra loja de equipamentos", "ir para loja de equipamentos", function()
     --- ir para a loja de equipamentos de treino
 local player =  game.Players.LocalPlayer
 local char = player.Character
@@ -696,7 +698,7 @@ char.HumanoidRootPart.CFrame = CFrame.new(-354, 9, -652)
 
 end)
 
-tab.newButton("Button", "ir para sensei kong fu", function()
+tab.newButton("ir pro sensei do kong fu", "ir para sensei kong fu", function()
     
 
 ---- ir para o sensei Kong fu
@@ -706,7 +708,7 @@ char.HumanoidRootPart.CFrame = CFrame.new(-594, 23, -1160)
 
 end)
 
-tab.newButton("Button", "ir para sensei karatê", function()
+tab.newButton("ir pra sensei karatê", "ir para sensei karatê", function()
     
 
 ---- ir para o sensei Karatê 
