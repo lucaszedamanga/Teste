@@ -663,10 +663,7 @@ end
 local tab = DrRayLibrary.newTab("Teleport", "ImageIdHere")
 
     tab.newButton("Button", "ir para spawn ", function()
-    
-tab.newButton("ir pro spawn", "viajar no tempo para o spawn ", function()
-    
-
+  
 ---- ir para spawn
 local player =  game.Players.LocalPlayer
 local char = player.Character
