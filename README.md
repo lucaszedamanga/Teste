@@ -660,4 +660,96 @@ end
 end
     end)
 
+
+
+    local tab = DrRayLibrary.newTab("Teleport", "ImageIdHere")
+    
+tab.newButton("Ir para toman", "te teleporta na HQ da toman", function()
+   
+
+--- ir para hq toman 
+
+local plr = game.Players.LocalPlayer
+local chr = plr.Character 
+chr.HumanoidRootPart.CFrame = CFrame.new(-323, 9, 27) 
+end)
+
+tab.newButton("ir para spawn", "rodar a sacola no spawn", function()
+    
+
+--- ir para spawn
+
+local plr = game.Players.LocalPlayer
+local chr = plr.Character 
+chr.HumanoidRootPart.CFrame = CFrame.new(-985, 9, -563)
+end)
+
+tab.newButton("ir para academia", "Te teleporta na academia", function()
+    
+
+--- ir para academia
+
+local plr = game.Players.LocalPlayer
+local chr = plr.Character 
+chr.HumanoidRootPart.CFrame = CFrame.new(-917, 9, -700)
+end)
+
+
+
+tab.newButton("ir para mercado", "te teleporta no mercadinho de alimentos", function()
+    
+
+--- ir para mercadinho de comida
+
+local plr = game.Players.LocalPlayer
+local chr = plr.Character 
+chr.HumanoidRootPart.CFrame = CFrame.new(-574, 9, -517)
+end)
+
+
+tab.newButton("ir lara store equipamentos", "te teleporta no store equipamentos de treino", function()
+    
+
+--- ir para store de equipamentos de treino
+
+local plr = game.Players.LocalPlayer
+local chr = plr.Character 
+chr.HumanoidRootPart.CFrame = CFrame.new(-383, 9, -660)
+end)
+
+
+
+tab.newButton("ir para kong fu sensei", "te teleporte na área do kong fu sensei", function()
+    
+
+--- ir para kong fu sensei
+
+local plr = game.Players.LocalPlayer
+local chr = plr.Character 
+chr.HumanoidRootPart.CFrame = CFrame.new(-585, 23, -1163)
+end)
+
+
+
+tab.newButton("ir para sensei karatê", "te teleporta na área do sensei karatê", function()
+    
+
+--- ir para sensei karatê 
+
+local plr = game.Players.LocalPlayer
+local chr = plr.Character 
+chr.HumanoidRootPart.CFrame = CFrame.new(-891, 24, -2007)
+end)
+
+tab.newButton("ir para dojo", "te teleporta no dojo", function()
+    
+
+--- ir para dojo
+
+local plr = game.Players.LocalPlayer
+local chr = plr.Character 
+chr.HumanoidRootPart.CFrame = CFrame.new(-1048, 10, -1194)
+end)
+
+
 window:Open()
