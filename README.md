@@ -798,6 +798,9 @@ tab.newButton("Infinite yield", "carrega comandos de administração", function(
     loadstring(game:HttpGet(('https://pastebin.com/raw/yRHbQADj'),true))()
 end)
 
+tab.newButton("Button", "Prints Hello!", function()
+    
+end)
 
 
 window:Open()
