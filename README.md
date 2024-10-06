@@ -9,6 +9,7 @@ tab.newToggle("auto rebirth", "Da rebirth automático", false, function(ix)
     if loopa then
     while loopa do
     if loop then
+    wait()
     print("o")
     end
     end
