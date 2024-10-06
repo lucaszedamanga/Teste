@@ -662,7 +662,7 @@ end
 
     local loopa = false
 tab.newToggle("auto fighters 30", "Fighers 30", false, function(valuer)
-  loop = value
+  loopa = valuer
   
     if loopa then
       while loopa do
