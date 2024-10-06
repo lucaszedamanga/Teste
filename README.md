@@ -1,14 +1,11 @@
 local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
-
 local window = DrRayLibrary:Load("DrRay", "Default")
 
-local tab = DrRayLibrary.newTab("Farmar", "ImageIdHere")
-
-
-
+local tab = DrRayLibrary.newTab("Farm", "ImageIdHere")
 local loop = false
 tab.newToggle("auto fighters 30", "Fighers 30", false, function(value)
-  loop = value 
+  loop = value
+  
     if loop then
       while loop do
         if loop then
@@ -658,18 +655,9 @@ end
                 
                 
             end
-    
+        end
 end
 end
     end)
-
-
-
-    
-
-
-
-
-
 
 window:Open()
