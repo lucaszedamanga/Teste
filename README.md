@@ -660,6 +660,18 @@ end
 end
     end)
 
+    local loopa = false
+tab.newToggle("auto fighters 30", "Fighers 30", false, function(valuer)
+  loopa = valuer
+  
+    if loopa then
+      while loop do
+        if loopa then
+        print("o")
+
+end)
+end
+end
 
 local tab = DrRayLibrary.newTab("Teleport", "ImageIdHere")
 
