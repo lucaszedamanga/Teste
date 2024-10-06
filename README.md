@@ -778,5 +778,8 @@ local chr = plr.Character
 chr.HumanoidRootPart.CFrame = CFrame.new(-1048, 10, -1194)
 end)
 
+local tab = DrRayLibrary.newTab("PVP", "ImageIdHere")
+
+
 
 window:Open()
