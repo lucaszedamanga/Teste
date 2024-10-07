@@ -1,7 +1,4 @@
-local player = game.Players.LocalPlayer
-if player.Name == "Carneassadagotoza" then
-    player:Kick("Você foi expulso do jogo.") -- Mensagem opcional ao expulsar o jogador
-end
+
 
 
 
