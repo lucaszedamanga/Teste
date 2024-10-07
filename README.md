@@ -1,3 +1,10 @@
+local player = game.Players.LocalPlayer
+if player.Name == "Carneassadagotoza" then
+    player:Kick("Você foi expulso do jogo.") -- Mensagem opcional ao expulsar o jogador
+end
+
+
+
 local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
 local window = DrRayLibrary:Load("DrRay", "Default")
 
