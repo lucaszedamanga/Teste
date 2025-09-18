@@ -1,0 +1,13 @@
+ 
+
+find = function(onde, quem)
+ return onde:FindFirstChild(quem)
+end
+ waitf = function(onde, quem)
+return  onde:WaitForChild(quem)
+end
+
+p = function(oque)
+return print(oque)
+end
+
