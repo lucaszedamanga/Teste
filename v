@@ -7,56 +7,101 @@ local CoreGui = game:GetService("CoreGui")
 local Players = game:GetService("Players")
 local Player = Players.LocalPlayer
 local PlayerMouse = Player:GetMouse()
-print("a")
+
 local redzlib = {
 	Themes = {
-		Darker = {
-			
-	["Color Hub 1"] = ColorSequence.new({
-		ColorSequenceKeypoint.new(0.00, Color3.fromRGB(15, 10, 35)),
-		ColorSequenceKeypoint.new(0.50, Color3.fromRGB(75, 30, 120)),
-		ColorSequenceKeypoint.new(1.00, Color3.fromRGB(15, 10, 35))
-	}),
-	["Color Hub 2"] = Color3.fromRGB(40, 20, 60),
-	["Color Stroke"] = Color3.fromRGB(120, 80, 200),
-	["Color Theme"] = Color3.fromRGB(130, 180, 255),
-	["Color Text"] = Color3.fromRGB(255, 255, 255),
-	["Color Dark Text"] = Color3.fromRGB(180, 170, 255)
-			},
-		Dark = {
-			["Color Hub 1"] = ColorSequence.new({
-				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(40, 40, 40)),
-				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(47.5, 47.5, 47.5)),
-				ColorSequenceKeypoint.new(1.00, Color3.fromRGB(40, 40, 40))
-			}),
-			["Color Hub 2"] = Color3.fromRGB(45, 45, 45),
-			["Color Stroke"] = Color3.fromRGB(65, 65, 65),
-			["Color Theme"] = Color3.fromRGB(65, 150, 255),
-			["Color Text"] = Color3.fromRGB(245, 245, 245),
-			["Color Dark Text"] = Color3.fromRGB(190, 190, 190)
-		},
-		Purple = {
-			["Color Hub 1"] = ColorSequence.new({
-				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(27.5, 25, 30)),
-				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(32.5, 32.5, 32.5)),
-				ColorSequenceKeypoint.new(1.00, Color3.fromRGB(27.5, 25, 30))
-			}),
-			["Color Hub 2"] = Color3.fromRGB(30, 30, 30),
-			["Color Stroke"] = Color3.fromRGB(40, 40, 40),
-			["Color Theme"] = Color3.fromRGB(150, 0, 255),
-			["Color Text"] = Color3.fromRGB(240, 240, 240),
-			["Color Dark Text"] = Color3.fromRGB(180, 180, 180)
-		}
+	Darker = {
+		["Color Hub 1"] = ColorSequence.new({
+			ColorSequenceKeypoint.new(0.00, Color3.fromRGB(15, 10, 35)),
+			ColorSequenceKeypoint.new(0.25, Color3.fromRGB(50, 20, 80)),
+			ColorSequenceKeypoint.new(0.50, Color3.fromRGB(75, 30, 120)),
+			ColorSequenceKeypoint.new(0.75, Color3.fromRGB(50, 20, 80)),
+			ColorSequenceKeypoint.new(1.00, Color3.fromRGB(15, 10, 35))
+		}),
+		["Color Hub 2"] = Color3.fromRGB(40, 20, 60),
+		["Color Stroke"] = Color3.fromRGB(120, 80, 200),
+		["Color Theme"] = Color3.fromRGB(130, 180, 255),
+		["Color Text"] = Color3.fromRGB(255, 255, 255),
+		["Color Dark Text"] = Color3.fromRGB(180, 170, 255)
 	},
-	Info = {
-		Version = "1.1.0"
+	Dark = {
+		["Color Hub 1"] = ColorSequence.new({
+			ColorSequenceKeypoint.new(0.00, Color3.fromRGB(40, 40, 40)),
+			ColorSequenceKeypoint.new(0.25, Color3.fromRGB(45, 45, 50)),
+			ColorSequenceKeypoint.new(0.50, Color3.fromRGB(47, 47, 47)),
+			ColorSequenceKeypoint.new(0.75, Color3.fromRGB(45, 45, 50)),
+			ColorSequenceKeypoint.new(1.00, Color3.fromRGB(40, 40, 40))
+		}),
+		["Color Hub 2"] = Color3.fromRGB(45, 45, 45),
+		["Color Stroke"] = Color3.fromRGB(65, 65, 65),
+		["Color Theme"] = Color3.fromRGB(65, 150, 255),
+		["Color Text"] = Color3.fromRGB(245, 245, 245),
+		["Color Dark Text"] = Color3.fromRGB(190, 190, 190)
 	},
-	Save = {
-		UISize = {550, 380},
-		TabSize = 160,
-		Theme = "Dark"
+	Rose = {
+		["Color Hub 1"] = ColorSequence.new({
+			ColorSequenceKeypoint.new(0.00, Color3.fromRGB(50, 0, 50)),
+			ColorSequenceKeypoint.new(0.25, Color3.fromRGB(120, 30, 120)),
+			ColorSequenceKeypoint.new(0.50, Color3.fromRGB(200, 50, 200)),
+			ColorSequenceKeypoint.new(0.75, Color3.fromRGB(120, 30, 120)),
+			ColorSequenceKeypoint.new(1.00, Color3.fromRGB(50, 0, 50))
+		}),
+		["Color Hub 2"] = Color3.fromRGB(180, 30, 180),
+		["Color Stroke"] = Color3.fromRGB(255, 100, 255),
+		["Color Theme"] = Color3.fromRGB(255, 150, 255),
+		["Color Text"] = Color3.fromRGB(255, 255, 255),
+		["Color Dark Text"] = Color3.fromRGB(200, 150, 200)
 	},
-	
+	Azul = {
+		["Color Hub 1"] = ColorSequence.new({
+			ColorSequenceKeypoint.new(0.00, Color3.fromRGB(10, 10, 50)),
+			ColorSequenceKeypoint.new(0.25, Color3.fromRGB(30, 50, 100)),
+			ColorSequenceKeypoint.new(0.50, Color3.fromRGB(50, 100, 255)),
+			ColorSequenceKeypoint.new(0.75, Color3.fromRGB(30, 50, 100)),
+			ColorSequenceKeypoint.new(1.00, Color3.fromRGB(10, 10, 50))
+		}),
+		["Color Hub 2"] = Color3.fromRGB(30, 50, 180),
+		["Color Stroke"] = Color3.fromRGB(80, 120, 255),
+		["Color Theme"] = Color3.fromRGB(100, 150, 255),
+		["Color Text"] = Color3.fromRGB(245, 245, 255),
+		["Color Dark Text"] = Color3.fromRGB(180, 200, 255)
+	},
+	Branco = {
+		["Color Hub 1"] = ColorSequence.new({
+			ColorSequenceKeypoint.new(0.00, Color3.fromRGB(230, 230, 230)),
+			ColorSequenceKeypoint.new(0.25, Color3.fromRGB(240, 240, 240)),
+			ColorSequenceKeypoint.new(0.50, Color3.fromRGB(255, 255, 255)),
+			ColorSequenceKeypoint.new(0.75, Color3.fromRGB(240, 240, 240)),
+			ColorSequenceKeypoint.new(1.00, Color3.fromRGB(230, 230, 230))
+		}),
+		["Color Hub 2"] = Color3.fromRGB(240, 240, 240),
+		["Color Stroke"] = Color3.fromRGB(200, 200, 200),
+		["Color Theme"] = Color3.fromRGB(255, 255, 255),
+		["Color Text"] = Color3.fromRGB(10, 10, 10),
+		["Color Dark Text"] = Color3.fromRGB(60, 60, 60)
+	},
+	Colorido = {
+		["Color Hub 1"] = ColorSequence.new({
+			ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 0)),
+			ColorSequenceKeypoint.new(0.33, Color3.fromRGB(0, 255, 0)),
+			ColorSequenceKeypoint.new(0.66, Color3.fromRGB(0, 0, 255)),
+			ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 0))
+		}),
+		["Color Hub 2"] = Color3.fromRGB(255, 120, 0),
+		["Color Stroke"] = Color3.fromRGB(0, 255, 200),
+		["Color Theme"] = Color3.fromRGB(255, 0, 255),
+		["Color Text"] = Color3.fromRGB(255, 255, 255),
+		["Color Dark Text"] = Color3.fromRGB(10, 10, 10)
+	}
+},
+Info = {
+	Version = "1.1.0"
+},
+Save = {
+	UISize = {550, 380},
+	TabSize = 160,
+	Theme = "Rose"
+}	
 	Settings = {},
 	Connection = {},
 	Instances = {},
