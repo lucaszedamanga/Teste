@@ -101,7 +101,7 @@ Save = {
 	UISize = {550, 380},
 	TabSize = 160,
 	Theme = "Rose"
-}	
+},
 	Settings = {},
 	Connection = {},
 	Instances = {},
