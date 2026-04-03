@@ -128,7 +128,7 @@ Info = {
 Save = {
 	UISize = {550, 380},
 	TabSize = 160,
-	Theme = "Colorido"
+	Theme = "Galaxy"
 },
 	Settings = {},
 	Connection = {},
