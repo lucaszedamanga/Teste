@@ -66,7 +66,7 @@ Info = {
 Save = {
 	UISize = {550, 380},
 	TabSize = 160,
-	Theme = "Rose"
+	Theme = "Branco"
 },
 	Settings = {},
 	Connection = {},
