@@ -34,6 +34,12 @@ local redzlib = {
 		["Color Text"] = Color3.fromRGB(10, 10, 10),
 		["Color Dark Text"] = Color3.fromRGB(60, 60, 60)
 	},
+		Rose = {
+		["Color Hub 1"] = ColorSequence.new({
+			ColorSequenceKeypoint.new(0.00, Color3.fromRGB(50, 0, 50)),
+			ColorSequenceKeypoint.new(0.50, Color3.fromRGB(200, 50, 200)),
+			ColorSequenceKeypoint.new(1.00, Color3.fromRGB(50, 0, 50))
+		}),
 	Colorido = {
 		["Color Hub 1"] = ColorSequence.new({
 			ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 0)),
@@ -54,7 +60,7 @@ Info = {
 Save = {
 	UISize = {550, 380},
 	TabSize = 160,
-	Theme = "Azul"
+	Theme = "Rose"
 },
 	Settings = {},
 	Connection = {},
