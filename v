@@ -67,6 +67,7 @@ Save = {
 	TabSize = 160,
 	Theme = "Dark"
 }
+}
 	Settings = {},
 	Connection = {},
 	Instances = {},
