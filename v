@@ -40,11 +40,11 @@ local redzlib = {
 	},
 		Galaxy = {
 ["Color Hub 1"] = ColorSequence.new({
-    ColorSequenceKeypoint.new(0.00, Color3.fromRGB(10, 10, 40)),
-    ColorSequenceKeypoint.new(0.25, Color3.fromRGB(20, 80, 120)),
-	ColorSequenceKeypoint.new(0.40, Color3.fromRGB(0, 170, 255)),
-	ColorSequenceKeypoint.new(0.50, Color3.fromRGB(20, 80, 120)),
-	ColorSequenceKeypoint.new(0.60, Color3.fromRGB(10, 10, 40))
+    ColorSequenceKeypoint.new(0.00, Color3.fromRGB(5, 10, 30)),
+    ColorSequenceKeypoint.new(0.40, Color3.fromRGB(10, 60, 100)),
+    ColorSequenceKeypoint.new(0.50, Color3.fromRGB(0, 200, 255)),
+    ColorSequenceKeypoint.new(0.60, Color3.fromRGB(10, 60, 100)),
+    ColorSequenceKeypoint.new(1.00, Color3.fromRGB(5, 10, 30))
 }),
 			["Color Hub 2"] = Color3.fromRGB(0, 0, 0),
 			["Color Stroke"] = Color3.fromRGB(255, 0, 0),
