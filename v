@@ -7,7 +7,7 @@ local CoreGui = game:GetService("CoreGui")
 local Players = game:GetService("Players")
 local Player = Players.LocalPlayer
 local PlayerMouse = Player:GetMouse()
-
+print("a")
 local redzlib = {
 	Themes = {
 		Darker = {
